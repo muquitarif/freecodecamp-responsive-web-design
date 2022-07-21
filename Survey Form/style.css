@@ -1,0 +1,36 @@
+body {
+    margin: 50px 100px 50px 100px;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+#submit {
+    text-align: left;
+    margin-top: 10px;
+}
+
+#description {
+    margin-bottom: 50px;
+}
+
+#name,
+#email,
+#number {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+input,
+textarea {
+    padding: 10px;
+    border: none;
+    border-radius: 3px;
+    background-color: rgb(231, 231, 231);
+}
+
+button {
+    padding: 10px;
+    background-color: green;
+    color: white;
+    border: none;
+    border-radius: 4px;
+}

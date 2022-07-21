@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Survey Form</title>
+</head>
+
+<body>
+
+    <h1 id="title">Survey Form</h1>
+    <p id="description">Thank you for helping us improve the platform</p>
+
+    <form id="survey-form">
+        <div class="name">
+            <div>
+                <label id="name-label">Name</label>
+            </div>
+
+            <div>
+                <input id="name" type="text" placeholder="Enter Name" required>
+            </div>
+        </div>
+
+        <div class="email">
+            <div>
+                <label id="email-label">Email</label>
+            </div>
+
+            <div>
+                <input id="email" type="email" placeholder="Enter email" required>
+            </div>
+        </div>
+
+        <div class="number">
+            <div>
+                <label id="number-label">Phone Number</label>
+            </div>
+
+            <div>
+                <input id="number" type="Number" min="6" max="10" placeholder="Enter your Phone Number" required>
+            </div>
+        </div>
+
+        <div class="job">
+            <p> What are you doing right now?</p>
+            <select id="dropdown">
+                <option value="student">Student</option>
+                <option value="business">Business</option>
+                <option value="job">Job</option>
+            </select>
+        </div>
+
+        <div class="age">
+            <p>Age (Optional)</p>
+            <div>
+                <input type="radio" name="age" value="18+">18+
+            </div>
+            <div class="div">
+                <input type="radio" name="age" value="30+">30+
+            </div>
+            <div>
+                <input type="radio" name="age" value="60+">60+
+            </div>
+        </div>
+
+        <div class="interest">
+            <p>Your feild of interest:</p>
+            <div>
+                <input type="checkbox" value="web dev">Website Development
+            </div>
+            <div>
+                <input type="checkbox" value="ui/ux">UI Design
+            </div>
+            <div>
+                <input type="checkbox" value="film making">Graphics Designing
+            </div>
+
+        </div>
+
+        <div class="feedback">
+            <p> Any Feedback/Suggestion?</p>
+            <textarea id="feedback" placeholder="Enter your feedback"></textarea>
+        </div>
+
+        <button id="submit" type="submit">Submit</button>
+    </form>
+</body>
+
+</html>
