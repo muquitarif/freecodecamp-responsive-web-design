@@ -1,6 +1,6 @@
 # Tribute Page
 
-## Tribute Page Link
+### Tribute Page Link
 [Task Link](https://www.freecodecamp.org/learn/2022/responsive-web-design/build-a-tribute-page-project/build-a-tribute-page)
 
 ### Task Completion Screenshot
